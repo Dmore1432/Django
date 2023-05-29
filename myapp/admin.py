@@ -15,7 +15,7 @@ admin.site.register(User,UserAdmin)
 
 
 class TeacherAdmin(admin.ModelAdmin):
-list_display = ['Firstname','Lastname','Contact',]
+    list_display = ['Firstname','Lastname','Contact',]
 
 admin.site.register(Teacher,TeacherAdmin)
 
